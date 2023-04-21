@@ -1,12 +1,12 @@
 body{
 }
 
-.logo{
+/* .logo{
    width: 200px;
    height: 200px;
    padding: 30px;
    background-color: #aaaaaa;
-}
+} */
 
 
 .list {
@@ -15,18 +15,57 @@ body{
    padding-left: 0;
 }
 
-.box{
+.box, .box2{
+   padding: 10px;
+   background-color: #141414;
    display: flex;
-   gap: 30px;
-}
-.box .item{
-   padding: 30px;
-   background-color: #555;
+   gap: 10px;
 }
 
-.box .icon{
+.box img{
+   width: 300px;
+   height: 300px;
+}
+.box .item, .box .item{
+   padding: 10px;
+   background-color: #141414;
+}
+.box .link{
+   fill: #FFFFFF;
+}
+.box .link:hover{
+   fill: #cc7205;
+}
+.box2 .link{
+   stroke: #FFFFFF;
+}
+.box2 .link:hover{
+   stroke-opacity: 0.5;
+}
+
+.box .icon, .box2 .icon{
    display: inline-block;
    width: 52px;
    height: 54px;
-   fill: #ffffff;
+   /* fill: red; */
 }
+.header{
+   padding: 20px;
+   background: #141414;
+ }
+ 
+ .header .link{
+   font-family: 'Epilogue', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 15px;
+   letter-spacing: -0.03em;
+   color: #FFFFFF;
+ }
+ 
+ .header .icon{
+   width: 40px;
+   height: 40px;
+   margin-right: 20px;
+   fill: #FFFFFF;
+ }
